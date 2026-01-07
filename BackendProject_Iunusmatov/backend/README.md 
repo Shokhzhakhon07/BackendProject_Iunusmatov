@@ -1,0 +1,34 @@
+# Backend Project – REST API
+
+## Student
+Name: Shokhzhakhon Iunusmatov
+Course: Backend Development
+
+## Description
+This project is a Spring Boot backend application that provides a REST API
+for managing products.
+
+The application exposes endpoints to retrieve product data in JSON format.
+It uses an in-memory H2 database and Spring Data JPA.
+
+## Technologies
+- Java 23
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
+
+## How to Run
+1. Open the project in IntelliJ IDEA
+2. Run the `BackendApplication` class
+3. The server will start on port 8080
+
+## API Endpoint
+GET http://localhost:8080/api/products
+
+Returns a list of products in JSON format.
+
+## Database
+H2 in-memory database
+H2 Console: http://localhost:8080/h2-console
